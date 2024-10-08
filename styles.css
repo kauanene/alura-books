@@ -1,8 +1,11 @@
-.principal {
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+:root {
+    --cor-de-fundo: #EBECEE;
 }
-.container {
-    height: 100vh;
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+h1 {
+    background-color: white;
 }
